@@ -1,0 +1,170 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AbstractCommandHandler	src/main/java/com/worldwarofants/game/arch/console/command/AbstractCommandHandler.java	/^    public AbstractCommandHandler(Controller controller) {$/;"	m	class:AbstractCommandHandler
+AbstractCommandHandler	src/main/java/com/worldwarofants/game/arch/console/command/AbstractCommandHandler.java	/^public abstract class AbstractCommandHandler<Controller extends AbstractController> {$/;"	c
+AbstractController	src/main/java/com/worldwarofants/game/arch/AbstractController.java	/^    public AbstractController(View view, IModuleNavigator navigator) {$/;"	m	class:AbstractController
+AbstractController	src/main/java/com/worldwarofants/game/arch/AbstractController.java	/^public abstract class AbstractController<View extends AbstractView> {$/;"	c
+AbstractModule	src/main/java/com/worldwarofants/game/arch/module/AbstractModule.java	/^    public AbstractModule(World world, IModuleNavigator navigator) {$/;"	m	class:AbstractModule
+AbstractModule	src/main/java/com/worldwarofants/game/arch/module/AbstractModule.java	/^public abstract class AbstractModule<CommandHandler extends AbstractCommandHandler> {$/;"	c
+AbstractView	src/main/java/com/worldwarofants/game/arch/AbstractView.java	/^    public AbstractView(VM viewModel) {$/;"	m	class:AbstractView
+AbstractView	src/main/java/com/worldwarofants/game/arch/AbstractView.java	/^public abstract class AbstractView<VM extends IViewModel> {$/;"	c
+Ant	src/main/java/com/worldwarofants/game/logic/Ant.java	/^public class Ant extends Entity{$/;"	c
+AntLength	src/main/java/com/worldwarofants/game/logic/Ant.java	/^    protected int AntLength;$/;"	f	class:Ant
+AntsService	src/main/java/com/worldwarofants/game/service/AntsService.java	/^    public AntsService(World world) {$/;"	m	class:AntsService
+AntsService	src/main/java/com/worldwarofants/game/service/AntsService.java	/^public class AntsService {$/;"	c
+CHILD_NAME_INDEX	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ReproduceCommand.java	/^    static final int CHILD_NAME_INDEX = 1;$/;"	f	class:ReproduceCommand
+COMMAND_ARGS_START_INDEX	src/main/java/com/worldwarofants/game/arch/console/command/AbstractCommandHandler.java	/^    private static final int COMMAND_ARGS_START_INDEX = 1;$/;"	f	class:AbstractCommandHandler	file:
+COMMAND_NAME	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ReproduceCommand.java	/^    static final String COMMAND_NAME = "reproduce";$/;"	f	class:ReproduceCommand
+COMMAND_NAME_POSITION	src/main/java/com/worldwarofants/game/arch/console/command/AbstractCommandHandler.java	/^    private static final int COMMAND_NAME_POSITION = 0;$/;"	f	class:AbstractCommandHandler	file:
+COMMAND_SHOW_ANTS	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleCommandHandler.java	/^    private static final String COMMAND_SHOW_ANTS = "showAnts";$/;"	f	class:ExampleCommandHandler	file:
+COMMAND_SHOW_GAME_TITLE	src/main/java/com/worldwarofants/game/ConsoleGame.java	/^    public static final String COMMAND_SHOW_GAME_TITLE = "showTitle";$/;"	f	class:ConsoleGame
+ConsoleGame	src/main/java/com/worldwarofants/game/ConsoleGame.java	/^    ConsoleGame() {$/;"	m	class:ConsoleGame
+ConsoleGame	src/main/java/com/worldwarofants/game/ConsoleGame.java	/^public class ConsoleGame extends ModuleManager {$/;"	c
+EXAMPLE	src/main/java/com/worldwarofants/game/module/ModuleName.java	/^    EXAMPLE$/;"	e	enum:ModuleName	file:
+Entity	src/main/java/com/worldwarofants/game/logic/Entity.java	/^ public class Entity {$/;"	c
+ExampleAnt	src/main/java/com/worldwarofants/game/model/ExampleAnt.java	/^    public ExampleAnt(String name) {$/;"	m	class:ExampleAnt
+ExampleAnt	src/main/java/com/worldwarofants/game/model/ExampleAnt.java	/^public class ExampleAnt {$/;"	c
+ExampleCommandHandler	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleCommandHandler.java	/^    ExampleCommandHandler(ExampleController controller) {$/;"	m	class:ExampleCommandHandler
+ExampleCommandHandler	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleCommandHandler.java	/^class ExampleCommandHandler extends AbstractCommandHandler<ExampleController> {$/;"	c
+ExampleController	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleController.java	/^    ExampleController(ExampleView view, IModuleNavigator navigator, AntsService antsService) {$/;"	m	class:ExampleController
+ExampleController	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleController.java	/^class ExampleController extends AbstractController<ExampleView> {$/;"	c
+ExampleModule	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleModule.java	/^    public ExampleModule(World world, IModuleNavigator navigator) {$/;"	m	class:ExampleModule
+ExampleModule	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleModule.java	/^public class ExampleModule extends AbstractModule<ExampleCommandHandler> {$/;"	c
+ExampleUtils	src/main/java/com/worldwarofants/game/module/examplefeature/utils/ExampleUtils.java	/^public class ExampleUtils {$/;"	c
+ExampleView	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleView.java	/^    ExampleView(ExampleViewModel viewModel) {$/;"	m	class:ExampleView
+ExampleView	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleView.java	/^class ExampleView extends AbstractView<ExampleViewModel> {$/;"	c
+ExampleViewModel	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleViewModel.java	/^    ExampleViewModel() {$/;"	m	class:ExampleViewModel
+ExampleViewModel	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleViewModel.java	/^class ExampleViewModel implements IViewModel {$/;"	c
+GAME_TITLE	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleView.java	/^    private static final String GAME_TITLE = "WORLD WAR OF ANTS";$/;"	f	class:ExampleView	file:
+ICommand	src/main/java/com/worldwarofants/game/arch/console/command/ICommand.java	/^public interface ICommand<Controller extends AbstractController> {$/;"	i
+IModuleNavigator	src/main/java/com/worldwarofants/game/arch/module/IModuleNavigator.java	/^public interface IModuleNavigator {$/;"	i
+INVALID_COMMAND_MESSAGE	src/main/java/com/worldwarofants/game/arch/console/command/AbstractCommandHandler.java	/^    private static final String INVALID_COMMAND_MESSAGE = "Invalid, try again.";$/;"	f	class:AbstractCommandHandler	file:
+IViewModel	src/main/java/com/worldwarofants/game/arch/IViewModel.java	/^public interface IViewModel {$/;"	i
+Main	src/main/java/com/worldwarofants/game/Main.java	/^public class Main {$/;"	c
+MainMenu	src/main/java/com/worldwarofants/game/io/MainMenu.java	/^public class MainMenu implements UserInterface {$/;"	c
+ModuleManager	src/main/java/com/worldwarofants/game/arch/module/ModuleManager.java	/^    protected ModuleManager() {$/;"	m	class:ModuleManager
+ModuleManager	src/main/java/com/worldwarofants/game/arch/module/ModuleManager.java	/^public abstract class ModuleManager {$/;"	c
+ModuleName	src/main/java/com/worldwarofants/game/module/ModuleName.java	/^public enum ModuleName {$/;"	g
+NAME_AND_ARGS_DIVIDER	src/main/java/com/worldwarofants/game/arch/console/command/AbstractCommandHandler.java	/^    private static final String NAME_AND_ARGS_DIVIDER = " ";$/;"	f	class:AbstractCommandHandler	file:
+PARENT_NAME_INDEX	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ReproduceCommand.java	/^    static final int PARENT_NAME_INDEX = 0;$/;"	f	class:ReproduceCommand
+QueenAnt	src/main/java/com/worldwarofants/game/logic/QueenAnt.java	/^public class QueenAnt extends Ant {$/;"	c
+QueenPrestige	src/main/java/com/worldwarofants/game/logic/QueenAnt.java	/^    private int QueenPrestige;$/;"	f	class:QueenAnt	file:
+ReproduceCommand	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ReproduceCommand.java	/^class ReproduceCommand implements ICommand<ExampleController> {$/;"	c
+Spider	src/main/java/com/worldwarofants/game/logic/Spider.java	/^public class Spider extends Entity {$/;"	c
+TextMenu	src/main/java/com/worldwarofants/game/io/TextMenu.java	/^    public TextMenu() {$/;"	m	class:TextMenu
+TextMenu	src/main/java/com/worldwarofants/game/io/TextMenu.java	/^public class TextMenu {$/;"	c
+UserInterface	src/main/java/com/worldwarofants/game/io/UserInterface.java	/^public interface UserInterface {$/;"	i
+Wasp	src/main/java/com/worldwarofants/game/logic/Wasp.java	/^public class Wasp extends Entity{$/;"	c
+WorkerAnt	src/main/java/com/worldwarofants/game/logic/WorkerAnt.java	/^public class WorkerAnt extends Ant {$/;"	c
+World	src/main/java/com/worldwarofants/game/model/World.java	/^public class World {$/;"	c
+addAnt	src/main/java/com/worldwarofants/game/service/AntsService.java	/^    public void addAnt(ExampleAnt child) {$/;"	m	class:AntsService
+addModule	src/main/java/com/worldwarofants/game/arch/module/ModuleManager.java	/^    protected void addModule(AbstractModule module) {$/;"	m	class:ModuleManager
+addOption	src/main/java/com/worldwarofants/game/io/TextMenu.java	/^    public void addOption(String string) {$/;"	m	class:TextMenu
+allegiance	src/main/java/com/worldwarofants/game/logic/Entity.java	/^    protected String allegiance;$/;"	f	class:Entity
+antNames	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleViewModel.java	/^    private List<String> antNames;$/;"	f	class:ExampleViewModel	file:
+antsService	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleController.java	/^    private AntsService antsService;$/;"	f	class:ExampleController	file:
+com.worldwarofants.game	src/main/java/com/worldwarofants/game/ConsoleGame.java	/^package com.worldwarofants.game;$/;"	p
+com.worldwarofants.game	src/main/java/com/worldwarofants/game/Main.java	/^package com.worldwarofants.game;$/;"	p
+com.worldwarofants.game.arch	src/main/java/com/worldwarofants/game/arch/AbstractController.java	/^package com.worldwarofants.game.arch;$/;"	p
+com.worldwarofants.game.arch	src/main/java/com/worldwarofants/game/arch/AbstractView.java	/^package com.worldwarofants.game.arch;$/;"	p
+com.worldwarofants.game.arch	src/main/java/com/worldwarofants/game/arch/IViewModel.java	/^package com.worldwarofants.game.arch;$/;"	p
+com.worldwarofants.game.arch.console.command	src/main/java/com/worldwarofants/game/arch/console/command/AbstractCommandHandler.java	/^package com.worldwarofants.game.arch.console.command;$/;"	p
+com.worldwarofants.game.arch.console.command	src/main/java/com/worldwarofants/game/arch/console/command/ICommand.java	/^package com.worldwarofants.game.arch.console.command;$/;"	p
+com.worldwarofants.game.arch.module	src/main/java/com/worldwarofants/game/arch/module/AbstractModule.java	/^package com.worldwarofants.game.arch.module;$/;"	p
+com.worldwarofants.game.arch.module	src/main/java/com/worldwarofants/game/arch/module/IModuleNavigator.java	/^package com.worldwarofants.game.arch.module;$/;"	p
+com.worldwarofants.game.arch.module	src/main/java/com/worldwarofants/game/arch/module/ModuleManager.java	/^package com.worldwarofants.game.arch.module;$/;"	p
+com.worldwarofants.game.io	src/main/java/com/worldwarofants/game/io/MainMenu.java	/^package com.worldwarofants.game.io;$/;"	p
+com.worldwarofants.game.io	src/main/java/com/worldwarofants/game/io/TextMenu.java	/^package com.worldwarofants.game.io;$/;"	p
+com.worldwarofants.game.io	src/main/java/com/worldwarofants/game/io/UserInterface.java	/^package com.worldwarofants.game.io;$/;"	p
+com.worldwarofants.game.logic	src/main/java/com/worldwarofants/game/logic/Ant.java	/^package com.worldwarofants.game.logic;$/;"	p
+com.worldwarofants.game.logic	src/main/java/com/worldwarofants/game/logic/Entity.java	/^package com.worldwarofants.game.logic;$/;"	p
+com.worldwarofants.game.logic	src/main/java/com/worldwarofants/game/logic/QueenAnt.java	/^package com.worldwarofants.game.logic;$/;"	p
+com.worldwarofants.game.logic	src/main/java/com/worldwarofants/game/logic/Spider.java	/^package com.worldwarofants.game.logic;$/;"	p
+com.worldwarofants.game.logic	src/main/java/com/worldwarofants/game/logic/Wasp.java	/^package com.worldwarofants.game.logic;$/;"	p
+com.worldwarofants.game.logic	src/main/java/com/worldwarofants/game/logic/WorkerAnt.java	/^package com.worldwarofants.game.logic;$/;"	p
+com.worldwarofants.game.model	src/main/java/com/worldwarofants/game/model/ExampleAnt.java	/^package com.worldwarofants.game.model;$/;"	p
+com.worldwarofants.game.model	src/main/java/com/worldwarofants/game/model/World.java	/^package com.worldwarofants.game.model;$/;"	p
+com.worldwarofants.game.module	src/main/java/com/worldwarofants/game/module/ModuleName.java	/^package com.worldwarofants.game.module;$/;"	p
+com.worldwarofants.game.module.examplefeature.arch	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleCommandHandler.java	/^package com.worldwarofants.game.module.examplefeature.arch;$/;"	p
+com.worldwarofants.game.module.examplefeature.arch	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleController.java	/^package com.worldwarofants.game.module.examplefeature.arch;$/;"	p
+com.worldwarofants.game.module.examplefeature.arch	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleModule.java	/^package com.worldwarofants.game.module.examplefeature.arch;$/;"	p
+com.worldwarofants.game.module.examplefeature.arch	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleView.java	/^package com.worldwarofants.game.module.examplefeature.arch;$/;"	p
+com.worldwarofants.game.module.examplefeature.arch	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleViewModel.java	/^package com.worldwarofants.game.module.examplefeature.arch;$/;"	p
+com.worldwarofants.game.module.examplefeature.arch	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ReproduceCommand.java	/^package com.worldwarofants.game.module.examplefeature.arch;$/;"	p
+com.worldwarofants.game.module.examplefeature.utils	src/main/java/com/worldwarofants/game/module/examplefeature/utils/ExampleUtils.java	/^package com.worldwarofants.game.module.examplefeature.utils;$/;"	p
+com.worldwarofants.game.service	src/main/java/com/worldwarofants/game/service/AntsService.java	/^package com.worldwarofants.game.service;$/;"	p
+combatAttack	src/main/java/com/worldwarofants/game/logic/Entity.java	/^    protected int combatAttack;$/;"	f	class:Entity
+combatDefense	src/main/java/com/worldwarofants/game/logic/Entity.java	/^    protected int combatDefense;$/;"	f	class:Entity
+commandHandler	src/main/java/com/worldwarofants/game/arch/module/AbstractModule.java	/^    private CommandHandler commandHandler;$/;"	f	class:AbstractModule	file:
+commands	src/main/java/com/worldwarofants/game/arch/console/command/AbstractCommandHandler.java	/^    private final Map<String, ICommand<Controller>> commands;$/;"	f	class:AbstractCommandHandler	file:
+controller	src/main/java/com/worldwarofants/game/arch/console/command/AbstractCommandHandler.java	/^    private final Controller controller;$/;"	f	class:AbstractCommandHandler	file:
+currentModule	src/main/java/com/worldwarofants/game/arch/module/ModuleManager.java	/^    protected AbstractModule currentModule;$/;"	f	class:ModuleManager
+defineCommands	src/main/java/com/worldwarofants/game/arch/console/command/AbstractCommandHandler.java	/^    protected abstract void defineCommands(Map<String, ICommand<Controller>> commands);$/;"	m	class:AbstractCommandHandler
+defineCommands	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleCommandHandler.java	/^    protected void defineCommands(Map<String, ICommand<ExampleController>> commands) {$/;"	m	class:ExampleCommandHandler
+defineModules	src/main/java/com/worldwarofants/game/ConsoleGame.java	/^    protected void defineModules(IModuleNavigator navigator) {$/;"	m	class:ConsoleGame
+defineModules	src/main/java/com/worldwarofants/game/arch/module/ModuleManager.java	/^    protected abstract void defineModules(IModuleNavigator navigator);$/;"	m	class:ModuleManager
+defineStartingModule	src/main/java/com/worldwarofants/game/ConsoleGame.java	/^    protected AbstractModule defineStartingModule(IModuleNavigator navigator) {$/;"	m	class:ConsoleGame
+defineStartingModule	src/main/java/com/worldwarofants/game/arch/module/ModuleManager.java	/^    protected abstract AbstractModule defineStartingModule(IModuleNavigator navigator);$/;"	m	class:ModuleManager
+display	src/main/java/com/worldwarofants/game/io/TextMenu.java	/^    public int display() {$/;"	m	class:TextMenu
+doUI	src/main/java/com/worldwarofants/game/io/MainMenu.java	/^    public void doUI(Scanner scanner) {$/;"	m	class:MainMenu
+doUI	src/main/java/com/worldwarofants/game/io/UserInterface.java	/^    public void doUI(Scanner scanner);$/;"	m	interface:UserInterface
+execute	src/main/java/com/worldwarofants/game/arch/console/command/ICommand.java	/^    void execute(Controller controller, String[] arguments);$/;"	m	interface:ICommand
+execute	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ReproduceCommand.java	/^    public void execute(ExampleController controller, String[] arguments) {$/;"	m	class:ReproduceCommand
+executeCommand	src/main/java/com/worldwarofants/game/arch/console/command/AbstractCommandHandler.java	/^    public void executeCommand(String commandName, String[] arguments) {$/;"	m	class:AbstractCommandHandler
+executeCommand	src/main/java/com/worldwarofants/game/arch/console/command/AbstractCommandHandler.java	/^    public void executeCommand(String input) {$/;"	m	class:AbstractCommandHandler
+executeCommand	src/main/java/com/worldwarofants/game/arch/module/AbstractModule.java	/^    public void executeCommand(String input) {$/;"	m	class:AbstractModule
+executeStartingCommand	src/main/java/com/worldwarofants/game/arch/console/command/AbstractCommandHandler.java	/^    public abstract void executeStartingCommand(String[] arguments);$/;"	m	class:AbstractCommandHandler
+executeStartingCommand	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleCommandHandler.java	/^    public void executeStartingCommand(String[] arguments) {$/;"	m	class:ExampleCommandHandler
+findAntByName	src/main/java/com/worldwarofants/game/service/AntsService.java	/^    public ExampleAnt findAntByName(String parentName) {$/;"	m	class:AntsService
+gameOver	src/main/java/com/worldwarofants/game/model/World.java	/^    public void gameOver() {$/;"	m	class:World
+gameTitle	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleController.java	/^    void gameTitle(String[] arguments) {$/;"	m	class:ExampleController
+getAllAnts	src/main/java/com/worldwarofants/game/service/AntsService.java	/^    public List<ExampleAnt> getAllAnts() {$/;"	m	class:AntsService
+getAntNames	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleController.java	/^    private List<String> getAntNames(List<ExampleAnt> ants) {$/;"	m	class:ExampleController	file:
+getAntNames	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleViewModel.java	/^    List<String> getAntNames() {$/;"	m	class:ExampleViewModel
+getModuleName	src/main/java/com/worldwarofants/game/arch/module/AbstractModule.java	/^    public abstract ModuleName getModuleName();$/;"	m	class:AbstractModule
+getModuleName	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleModule.java	/^    public ModuleName getModuleName() {$/;"	m	class:ExampleModule
+getName	src/main/java/com/worldwarofants/game/model/ExampleAnt.java	/^    public String getName() {$/;"	m	class:ExampleAnt
+getOption	src/main/java/com/worldwarofants/game/io/TextMenu.java	/^    public String getOption(int id) {$/;"	m	class:TextMenu
+getViewModel	src/main/java/com/worldwarofants/game/arch/AbstractView.java	/^    public VM getViewModel() {$/;"	m	class:AbstractView
+health	src/main/java/com/worldwarofants/game/logic/Entity.java	/^    protected int health;$/;"	f	class:Entity
+hunger	src/main/java/com/worldwarofants/game/logic/Entity.java	/^    protected int hunger;$/;"	f	class:Entity
+initDatabase	src/main/java/com/worldwarofants/game/ConsoleGame.java	/^    protected void initDatabase() {$/;"	m	class:ConsoleGame
+initDatabase	src/main/java/com/worldwarofants/game/arch/module/ModuleManager.java	/^    protected abstract void initDatabase();$/;"	m	class:ModuleManager
+initDependencies	src/main/java/com/worldwarofants/game/arch/module/AbstractModule.java	/^    protected abstract CommandHandler initDependencies();$/;"	m	class:AbstractModule
+initDependencies	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleModule.java	/^    protected ExampleCommandHandler initDependencies() {$/;"	m	class:ExampleModule
+initNavigator	src/main/java/com/worldwarofants/game/arch/module/ModuleManager.java	/^    private IModuleNavigator initNavigator() {$/;"	m	class:ModuleManager	file:
+isGameRunning	src/main/java/com/worldwarofants/game/model/World.java	/^    private boolean isGameRunning = true;$/;"	f	class:World	file:
+isGameRunning	src/main/java/com/worldwarofants/game/model/World.java	/^    public boolean isGameRunning() {$/;"	m	class:World
+isPlayable	src/main/java/com/worldwarofants/game/logic/Entity.java	/^    protected int isPlayable;$/;"	f	class:Entity
+isSpawned	src/main/java/com/worldwarofants/game/logic/Entity.java	/^    protected boolean isSpawned;$/;"	f	class:Entity
+items	src/main/java/com/worldwarofants/game/io/TextMenu.java	/^    private ArrayList<String> items;$/;"	f	class:TextMenu	file:
+location	src/main/java/com/worldwarofants/game/logic/Entity.java	/^    protected String location;$/;"	f	class:Entity
+main	src/main/java/com/worldwarofants/game/Main.java	/^    public static void main(String[] args) {$/;"	m	class:Main
+moduleNavigator	src/main/java/com/worldwarofants/game/arch/AbstractController.java	/^    private final IModuleNavigator moduleNavigator;$/;"	f	class:AbstractController	file:
+modules	src/main/java/com/worldwarofants/game/arch/module/ModuleManager.java	/^    private final Map<ModuleName, AbstractModule> modules;$/;"	f	class:ModuleManager	file:
+name	src/main/java/com/worldwarofants/game/model/ExampleAnt.java	/^    private final String name;$/;"	f	class:ExampleAnt	file:
+navigateTo	src/main/java/com/worldwarofants/game/arch/AbstractController.java	/^    protected void navigateTo(ModuleName moduleName, String[] arguments) {$/;"	m	class:AbstractController
+navigateTo	src/main/java/com/worldwarofants/game/arch/module/IModuleNavigator.java	/^    void navigateTo(ModuleName moduleName, String[] arguments);$/;"	m	interface:IModuleNavigator
+navigator	src/main/java/com/worldwarofants/game/arch/module/AbstractModule.java	/^    protected IModuleNavigator navigator;$/;"	f	class:AbstractModule
+readInput	src/main/java/com/worldwarofants/game/ConsoleGame.java	/^    private String readInput() {$/;"	m	class:ConsoleGame	file:
+reproduce	src/main/java/com/worldwarofants/game/model/ExampleAnt.java	/^    public ExampleAnt reproduce(String name) {$/;"	m	class:ExampleAnt
+reproduce	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleController.java	/^    void reproduce(String[] arguments) {$/;"	m	class:ExampleController
+run	src/main/java/com/worldwarofants/game/ConsoleGame.java	/^    public void run() {$/;"	m	class:ConsoleGame
+scanner	src/main/java/com/worldwarofants/game/ConsoleGame.java	/^    private final Scanner scanner;$/;"	f	class:ConsoleGame	file:
+setAntNames	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleViewModel.java	/^    void setAntNames(List<String> antNames) {$/;"	m	class:ExampleViewModel
+showAllAnts	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleController.java	/^    void showAllAnts(String[] arguments) {$/;"	m	class:ExampleController
+showAllAnts	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleView.java	/^    public void showAllAnts() {$/;"	m	class:ExampleView
+showGameTitle	src/main/java/com/worldwarofants/game/module/examplefeature/arch/ExampleView.java	/^    public void showGameTitle() {$/;"	m	class:ExampleView
+stamina	src/main/java/com/worldwarofants/game/logic/Entity.java	/^    protected int stamina;$/;"	f	class:Entity
+start	src/main/java/com/worldwarofants/game/arch/module/AbstractModule.java	/^    public void start(String[] arguments) {$/;"	m	class:AbstractModule
+utilsClass	src/main/java/com/worldwarofants/game/module/examplefeature/utils/ExampleUtils.java	/^    private final static String utilsClass =$/;"	f	class:ExampleUtils	file:
+view	src/main/java/com/worldwarofants/game/arch/AbstractController.java	/^    protected final View view;$/;"	f	class:AbstractController
+viewModel	src/main/java/com/worldwarofants/game/arch/AbstractView.java	/^    private VM viewModel;$/;"	f	class:AbstractView	file:
+world	src/main/java/com/worldwarofants/game/ConsoleGame.java	/^    private World world;$/;"	f	class:ConsoleGame	file:
+world	src/main/java/com/worldwarofants/game/arch/module/AbstractModule.java	/^    protected World world;$/;"	f	class:AbstractModule
+xPos	src/main/java/com/worldwarofants/game/logic/Entity.java	/^    protected int xPos;$/;"	f	class:Entity
+yPos	src/main/java/com/worldwarofants/game/logic/Entity.java	/^    protected int yPos;$/;"	f	class:Entity
